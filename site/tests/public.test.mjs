@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { once } from 'node:events';
-import { normalizeWriting, writingText } from '../public/writing-format.mjs';
+import { normalizeWriting, writingText } from '../public/writing-format.js';
 import { readDays, validateHistory, body, workNames } from '../scripts/content.mjs';
 import { dayPage } from '../src/template.mjs';
 import { createSiteServer } from '../scripts/server.mjs';
@@ -47,7 +47,7 @@ test('normal preview serves modules and does not expose shared server writing', 
   const origin = `http://127.0.0.1:${server.address().port}`;
   try {
     assert.equal((await fetch(origin+'/api/writing/2026-10-27-001')).status,404);
-    const module = await fetch(origin+'/writing-device.mjs');
+    const module = await fetch(origin+'/writing-device.js');
     assert.equal(module.status,200);
     assert.match(module.headers.get('content-type'),/text\/javascript/);
   } finally { await new Promise(resolve=>server.close(resolve)); }

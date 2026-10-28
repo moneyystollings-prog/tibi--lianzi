@@ -1,4 +1,4 @@
-import { normalizeWriting } from './writing-format.mjs';
+import { normalizeWriting } from './writing-format.js';
 
 const databaseName = 'tibi-writing-v1';
 const storeName = 'entries';

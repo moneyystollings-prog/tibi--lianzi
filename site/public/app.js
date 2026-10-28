@@ -1,5 +1,5 @@
-import { normalizeWriting, writingText } from './writing-format.mjs';
-import { openWritingDatabase, readDeviceWriting, saveDeviceWriting } from './writing-device.mjs';
+import { normalizeWriting, writingText } from './writing-format.js';
+import { openWritingDatabase, readDeviceWriting, saveDeviceWriting } from './writing-device.js';
 
 (() => {
   const one = selector => document.querySelector(selector);

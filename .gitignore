@@ -14,3 +14,6 @@ node_modules/
 .edgeone/
 .wrangler/
 *.zip
+
+# Tencent Cloud EdgeOne build output
+.tef_dist/
