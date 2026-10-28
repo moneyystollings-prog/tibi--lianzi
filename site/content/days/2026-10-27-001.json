@@ -1,0 +1,483 @@
+{
+  "id": "2026-10-27-001",
+  "cycle": "cycle-2026-10-27",
+  "day": 1,
+  "date": "2026-10-27",
+  "slug": "2026-10-27-light-in-the-ordinary",
+  "status": "completed",
+  "title": {
+    "zh": "在寻常处，看见光",
+    "en": "Light in the Ordinary",
+    "display": [
+      "在寻常处",
+      "看见光"
+    ]
+  },
+  "intro": {
+    "zh": "不必等一个特别的日子。月色、薄雪与窗边的光，都值得落笔。",
+    "en": "No need to wait for an extraordinary day. Moonlight, a dusting of snow, a little light by the window—all are worth a line."
+  },
+  "tags": [
+    "日常",
+    "光影",
+    "秋意"
+  ],
+  "images": {
+    "hero": {
+      "src": "/assets/day-001/hero.webp",
+      "alt": "秋日公园里，金色晨光穿过树叶，落在空长椅和小路上。 / Morning light falls across an empty park bench and path.",
+      "kind": "AI-generated",
+      "srcSmall": "/assets/day-001/hero-small.webp",
+      "width": 1672,
+      "height": 941
+    },
+    "poem": {
+      "src": "/assets/day-001/poem.webp",
+      "alt": "山居秋暝意境图：月照松林，清泉过石，浣女归来，莲叶间有渔舟。 / Moonlit pines, a clear stream, returning washerwomen and a fishing boat.",
+      "kind": "AI-generated",
+      "srcSmall": "/assets/day-001/poem-small.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    "prose": {
+      "src": "/assets/day-001/prose.webp",
+      "alt": "承天寺月夜意境图：竹柏影映在干燥庭院，两位文人缓步。 / Bamboo and cypress shadows cross a dry moonlit courtyard.",
+      "kind": "AI-generated",
+      "srcSmall": "/assets/day-001/prose-small.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    "modern": {
+      "src": "/assets/day-001/modern.webp",
+      "alt": "济南的冬天意境图：低缓山丘上的薄雪被晚阳染成淡粉色。 / Thin snow on gentle hills takes on a pink blush in the evening light.",
+      "kind": "AI-generated",
+      "srcSmall": "/assets/day-001/modern-small.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    "topic": {
+      "src": "/assets/day-001/topic.webp",
+      "alt": "岭南非遗主题插画：暖灯照着老街，工匠双手制作彩灯。 / Warm lamps, an old Lingnan street and hands making a lantern.",
+      "kind": "AI-generated",
+      "srcSmall": "/assets/day-001/topic-small.webp",
+      "width": 1536,
+      "height": 1024
+    }
+  },
+  "films": [
+    {
+      "work": "时空恋旅人",
+      "workEn": "About Time",
+      "year": 2013,
+      "director": "Richard Curtis",
+      "lines": [
+        {
+          "zh": "忽然之间，穿越时空似乎已经没有那么必要了，因为生活里的每一个细节都如此令人欢喜。",
+          "en": "Suddenly, time travel seems almost unnecessary, because every detail of life is so delightful."
+        }
+      ],
+      "translation": {
+        "zh": "中文意译 · 英文按公开转录核对",
+        "en": "Chinese translation · transcript-verified English"
+      },
+      "sources": [
+        {
+          "label": "台词转录 / Transcript",
+          "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=about-time"
+        }
+      ],
+      "poster": {
+        "src": "/assets/day-001/about-time.svg",
+        "alt": "《时空恋旅人》原创电影主题封面，非官方海报 / Original editorial cover for About Time, not official key art",
+        "source": "https://www.universalpicturesathome.com/movies/about-time",
+        "credit": "© 2013 Universal Studios. All Rights Reserved.",
+        "kind": "original-editorial"
+      }
+    },
+    {
+      "work": "完美的日子",
+      "workEn": "Perfect Days",
+      "year": 2023,
+      "director": "Wim Wenders",
+      "lines": [
+        {
+          "zh": "下次的事留给下次，此刻就是此刻。",
+          "en": "Next time is next time. Now is now."
+        }
+      ],
+      "translation": {
+        "zh": "中文意译 · 英文为官方片段译句（日语原声）",
+        "en": "Chinese translation · official clip’s English translation of Japanese"
+      },
+      "sources": [
+        {
+          "label": "发行商片段 / Official clip",
+          "url": "https://www.youtube.com/watch?v=F24IoeMlM3Y"
+        }
+      ],
+      "poster": {
+        "src": "/assets/day-001/perfect-days.svg",
+        "alt": "《完美的日子》原创电影主题封面，非官方海报 / Original editorial cover for Perfect Days, not official key art",
+        "source": "https://films.neonrated.com/perfect-days/",
+        "credit": "Official key art via NEON; rights retained by original owners.",
+        "kind": "original-editorial"
+      }
+    },
+    {
+      "work": "心灵奇旅",
+      "workEn": "Soul",
+      "year": 2020,
+      "director": "Pete Docter · Kemp Powers",
+      "lines": [
+        {
+          "zh": "我还不确定。",
+          "en": "I'm not sure."
+        },
+        {
+          "zh": "但我知道，我会认真地活过生命里的每一分钟。",
+          "en": "But I do know I'm going to live every minute of it."
+        }
+      ],
+      "translation": {
+        "zh": "中文意译 · 英文原文（剧本第126页）",
+        "en": "Chinese translation · original English, screenplay p.126"
+      },
+      "sources": [
+        {
+          "label": "剧本 / Screenplay",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/soul-2020.pdf?v=1729114993"
+        }
+      ],
+      "poster": {
+        "src": "/assets/day-001/soul.svg",
+        "alt": "《心灵奇旅》原创电影主题封面，非官方海报 / Original editorial cover for Soul, not official key art",
+        "source": "https://www.pixar.com/feature-films",
+        "credit": "© Disney/Pixar. All Rights Reserved.",
+        "kind": "original-editorial"
+      }
+    }
+  ],
+  "poem": {
+    "work": "山居秋暝",
+    "workEn": "An Autumn Evening in the Mountains",
+    "author": "唐 · 王维 / Wang Wei",
+    "lines": [
+      {
+        "zh": "空山新雨后，天气晚来秋。",
+        "en": "After fresh rain in the quiet hills, evening brings the cool of autumn."
+      },
+      {
+        "zh": "明月松间照，清泉石上流。",
+        "en": "The bright moon shines between the pines; a clear spring flows over stones."
+      },
+      {
+        "zh": "竹喧归浣女，莲动下渔舟。",
+        "en": "Voices stir the bamboo as the washerwomen return; lotus leaves move as a fishing boat glides downstream."
+      },
+      {
+        "zh": "随意春芳歇，王孙自可留。",
+        "en": "Let spring's blossoms fade as they will; here I am content to stay."
+      }
+    ],
+    "translation": {
+      "zh": "中文原文，简体转写 · 英文自译",
+      "en": "Original Chinese, simplified script · English translated for this edition"
+    },
+    "note": {
+      "zh": "雨后山色清明，月光与泉声相映；浣女与渔舟让幽静山林有了日常生活的温度。末句“王孙”按诗人自指理解。",
+      "en": "Moonlight and running water meet after the rain; returning workers give the quiet landscape its human warmth. The final line is read as the poet referring to himself."
+    },
+    "imageCaption": {
+      "zh": "据全诗意境创作 · 水墨淡彩",
+      "en": "An interpretation of the complete poem · ink and pale colour"
+    },
+    "sources": [
+      {
+        "label": "教育局全文 / Full poem",
+        "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_16a_text.pdf"
+      },
+      {
+        "label": "注释 / Commentary",
+        "url": "https://www.gushiwen.cn/mingju/juv.aspx?id=bd332a2be650"
+      }
+    ]
+  },
+  "prose": {
+    "work": "记承天寺夜游",
+    "workEn": "A Night Walk at Chengtian Temple",
+    "author": "宋 · 苏轼 / Su Shi",
+    "lines": [
+      {
+        "zh": "庭下如积水空明，水中藻荇交横，盖竹柏影也。",
+        "en": "The courtyard seemed filled with clear water, crossed by strands of water plants; they were shadows of bamboo and cypress."
+      },
+      {
+        "zh": "何夜无月？",
+        "en": "What night has no moon?"
+      },
+      {
+        "zh": "何处无竹柏？",
+        "en": "Where are there no bamboo or cypress trees?"
+      }
+    ],
+    "translation": {
+      "zh": "中文原文节选 · 英文自译",
+      "en": "Excerpt from the original · English translated for this edition"
+    },
+    "note": {
+      "zh": "月色本来寻常，肯与朋友停步观看的人却不多。“闲人”也含有谪居失意，并非只有无忧无虑；“积水”则是月光的比喻。",
+      "en": "Moonlight is ordinary; the willingness to pause with a friend is rarer. The writer’s leisure also carries the sorrow of exile. The water is a metaphor for moonlight."
+    },
+    "imageCaption": {
+      "zh": "月色如水，庭中无池。",
+      "en": "Moonlight like water; no pool in the courtyard."
+    },
+    "sources": [
+      {
+        "label": "全文 / Full text",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A8%98%E6%89%BF%E5%A4%A9%E5%AF%BA%E5%A4%9C%E9%81%8A"
+      },
+      {
+        "label": "版本与注释 / Text & notes",
+        "url": "https://www.gushiwen.cn/shiwenv.aspx?id=221828a8f12d"
+      }
+    ],
+    "heading": {
+      "zh": "借一庭月色。",
+      "en": "Borrow a courtyard of moonlight."
+    }
+  },
+  "modern": {
+    "work": "济南的冬天",
+    "workEn": "Winter in Jinan",
+    "author": "老舍 / Lao She",
+    "lines": [
+      {
+        "zh": "那点薄雪好像忽然害了羞，微微露出点粉色。",
+        "en": "The thin snow seemed suddenly shy, showing the faintest blush of pink."
+      }
+    ],
+    "translation": {
+      "zh": "中文原文短引（复句中的独立分句）· 英文自译",
+      "en": "A brief original clause · English translated for this edition"
+    },
+    "note": {
+      "zh": "一点夕阳，把薄雪写成了会害羞的生命。全文描绘济南温晴的冬天；此处是近落日时的山腰，不是清晨，也不是严寒中的雪山。",
+      "en": "Evening sunlight turns the snow into something almost alive and bashful. The essay celebrates Jinan’s mild, sunny winter; this scene is a hillside near sunset, not a frozen mountain at dawn."
+    },
+    "imageCaption": {
+      "zh": "据全文与选句上下文创作 · 淡水彩",
+      "en": "Based on the complete essay and passage · delicate watercolour"
+    },
+    "sources": [
+      {
+        "label": "全文与上下文 / Full essay",
+        "url": "https://www.guwendao.net/shiwenv_45364682d977.aspx"
+      },
+      {
+        "label": "教材核对 / Textbook source",
+        "url": "https://ise.hhu.edu.cn/_upload/article/files/d9/48/86d9a3fc4478b81dfdf877446b02/f6d1863e-2274-4ff7-b956-40db311b48a6.pdf"
+      }
+    ]
+  },
+  "topic": {
+    "work": "佛山秋色与非遗手艺",
+    "workEn": "Foshan’s autumn festivities and living crafts",
+    "verifiedOn": "2026-10-27",
+    "kind": "recent-culture",
+    "lines": [
+      {
+        "zh": "旧街灯亮，手艺在人间生根。",
+        "en": "Lamps glow along the old street; traditional crafts take root in everyday life."
+      }
+    ],
+    "translation": {
+      "zh": "中文原创 · 英文自译",
+      "en": "Original writing · English translated for this edition"
+    },
+    "note": {
+      "zh": "佛山秋色主体活动安排在10月23—26日，现已过活动日程。当地报道记录了开幕与巡游，这里留下的是非遗手艺走进日常的意象。",
+      "en": "Foshan’s main autumn festivities were scheduled for October 23–26 and that schedule has now passed. Reports documented the opening and parades; this reflection follows their celebration of living crafts."
+    },
+    "verification": {
+      "zh": "核验日期为2026年10月27日。本轮未能独立核实抖音官方当日榜单，故采用有日期来源的近期文化话题，不声称它是今日抖音热榜，也不列排名或热度。",
+      "en": "Checked on October 27, 2026. The current official Douyin rankings could not be independently verified, so this is a dated recent cultural topic, without a claimed Douyin rank or popularity score."
+    },
+    "sources": [
+      {
+        "label": "10月14日活动安排 / Programme",
+        "url": "https://www.foshannews.net/h/7135/20261014/8851306.html"
+      },
+      {
+        "label": "10月24日开幕报道 / Opening report",
+        "url": "https://www.foshannews.net/h/191/20261024/8852966.html"
+      },
+      {
+        "label": "10月26日巡游报道 / Parade report",
+        "url": "https://www.foshannews.net/h/7131/20261026/8853108.html"
+      }
+    ]
+  },
+  "original": {
+    "work": "今日一念",
+    "workEn": "A small reflection",
+    "lines": [
+      {
+        "zh": "光落在桌边，寻常也有回声。",
+        "en": "Light rests at the edge of the table; the ordinary has its own quiet resonance."
+      }
+    ],
+    "translation": {
+      "zh": "中文原创 · 英文自译",
+      "en": "Original writing · English translated for this edition"
+    },
+    "sources": []
+  },
+  "focus": [
+    {
+      "char": "穿",
+      "zh": "上收下展",
+      "en": "Compact top; open base"
+    },
+    {
+      "char": "越",
+      "zh": "走部托内",
+      "en": "A supporting outer stroke"
+    },
+    {
+      "char": "影",
+      "zh": "三撇有序",
+      "en": "Three ordered right strokes"
+    },
+    {
+      "char": "泉",
+      "zh": "上紧下舒",
+      "en": "Tight above; relaxed below"
+    },
+    {
+      "char": "喧",
+      "zh": "口小横匀",
+      "en": "Small radical; even horizontals"
+    },
+    {
+      "char": "浣",
+      "zh": "水点错落",
+      "en": "Stagger the water dots"
+    },
+    {
+      "char": "莲",
+      "zh": "走之平稳",
+      "en": "A steady sweeping base"
+    },
+    {
+      "char": "藻",
+      "zh": "层次收紧",
+      "en": "Gather the stacked parts"
+    },
+    {
+      "char": "荇",
+      "zh": "左右均衡",
+      "en": "Balance left and right"
+    },
+    {
+      "char": "薄",
+      "zh": "竖钩勿偏",
+      "en": "Keep the hook balanced"
+    }
+  ],
+  "writing": {
+    "fills": [
+      {
+        "before": "光停在",
+        "after": "，平常的一天亮了一下。",
+        "hint": "一处小地方",
+        "en": "Light pauses on ____, and an ordinary day grows a little brighter."
+      },
+      {
+        "before": "把",
+        "after": "放慢，日子便有了声音。",
+        "hint": "脚步、呼吸……",
+        "en": "Slow down ____, and the day begins to speak."
+      },
+      {
+        "before": "今天最轻的一件事，是",
+        "after": "。",
+        "hint": "一个小瞬间",
+        "en": "The lightest moment of today was ____."
+      }
+    ],
+    "question": {
+      "zh": "今天，有哪个不起眼的瞬间让你愿意停一下？写两三句，留住它的颜色、声音或触感。",
+      "en": "What small moment made you want to pause today? In two or three sentences, keep its colour, sound or texture."
+    },
+    "couplets": [
+      {
+        "title": {
+          "zh": "日常之光",
+          "en": "Everyday light"
+        },
+        "lines": [
+          {
+            "before": "晨光",
+            "after": "书页，",
+            "field": "cloze1"
+          },
+          {
+            "before": "晚照",
+            "after": "归人。",
+            "field": "cloze2"
+          }
+        ],
+        "en": "Morning light ____ the pages; evening glow ____ the homeward traveller."
+      },
+      {
+        "title": {
+          "zh": "山间月色",
+          "en": "Moonlit hills"
+        },
+        "lines": [
+          {
+            "before": "清泉",
+            "after": "石径，",
+            "field": "cloze3"
+          },
+          {
+            "before": "明月",
+            "after": "柴门。",
+            "field": "cloze4"
+          }
+        ],
+        "en": "A clear spring ____ the stone path; the bright moon ____ the rustic gate."
+      },
+      {
+        "title": {
+          "zh": "薄雪微灯",
+          "en": "Snow and lamplight"
+        },
+        "lines": [
+          {
+            "before": "薄雪",
+            "after": "远岫，",
+            "field": "cloze5"
+          },
+          {
+            "before": "微灯",
+            "after": "小窗。",
+            "field": "cloze6"
+          }
+        ],
+        "en": "Thin snow ____ the distant peaks; a little lamp ____ the small window."
+      }
+    ]
+  },
+  "editorial": {
+    "sourceResearch": "research/day1-sources.md",
+    "wholeTextRead": [
+      "山居秋暝",
+      "记承天寺夜游",
+      "济南的冬天"
+    ],
+    "dedupeScope": "Only new cycle; no previously completed edition in this cycle.",
+    "hotTopicLimitation": "Official daily Douyin ranking not independently verified; recent dated culture used instead."
+  }
+}

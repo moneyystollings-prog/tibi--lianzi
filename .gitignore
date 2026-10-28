@@ -1,0 +1,16 @@
+private/
+research/
+docs/screenshots/
+docs/validation-data/
+site/data/writing/
+site/data/exports/
+site/.runtime/
+site/dist/
+site/node_modules/
+node_modules/
+.env
+.env.*
+*.log
+.edgeone/
+.wrangler/
+*.zip

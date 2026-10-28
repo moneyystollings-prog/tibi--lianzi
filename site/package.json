@@ -1,0 +1,14 @@
+{
+  "name": "zijian-daily-writing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "字间：每日双语文学与楷书练习个人网站",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/verify.mjs"
+  }
+}

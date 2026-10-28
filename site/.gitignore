@@ -1,0 +1,6 @@
+data/writing/
+data/exports/
+.runtime/
+dist/
+node_modules/
+.env

@@ -1,0 +1,157 @@
+{
+  "id": "cycle-2026-10-27",
+  "createdOn": "2026-10-27",
+  "timezone": "Asia/Shanghai",
+  "resetReason": "用户明确要求旧周期去重记录归零，从第1天重新开始。此周期不得重复初始化。",
+  "completed": [
+    {
+      "id": "2026-10-27-001",
+      "day": 1,
+      "date": "2026-10-27",
+      "theme": {
+        "zh": "在寻常处，看见光",
+        "en": "Light in the Ordinary",
+        "display": [
+          "在寻常处",
+          "看见光"
+        ]
+      },
+      "works": [
+        "时空恋旅人",
+        "完美的日子",
+        "心灵奇旅",
+        "山居秋暝",
+        "记承天寺夜游",
+        "济南的冬天"
+      ],
+      "topic": "佛山秋色与非遗手艺",
+      "textZh": [
+        "忽然之间，穿越时空似乎已经没有那么必要了，因为生活里的每一个细节都如此令人欢喜。",
+        "下次的事留给下次，此刻就是此刻。",
+        "我还不确定。",
+        "但我知道，我会认真地活过生命里的每一分钟。",
+        "空山新雨后，天气晚来秋。",
+        "明月松间照，清泉石上流。",
+        "竹喧归浣女，莲动下渔舟。",
+        "随意春芳歇，王孙自可留。",
+        "庭下如积水空明，水中藻荇交横，盖竹柏影也。",
+        "何夜无月？",
+        "何处无竹柏？",
+        "那点薄雪好像忽然害了羞，微微露出点粉色。",
+        "旧街灯亮，手艺在人间生根。",
+        "光落在桌边，寻常也有回声。"
+      ],
+      "textEn": [
+        "Suddenly, time travel seems almost unnecessary, because every detail of life is so delightful.",
+        "Next time is next time. Now is now.",
+        "I'm not sure.",
+        "But I do know I'm going to live every minute of it.",
+        "After fresh rain in the quiet hills, evening brings the cool of autumn.",
+        "The bright moon shines between the pines; a clear spring flows over stones.",
+        "Voices stir the bamboo as the washerwomen return; lotus leaves move as a fishing boat glides downstream.",
+        "Let spring's blossoms fade as they will; here I am content to stay.",
+        "The courtyard seemed filled with clear water, crossed by strands of water plants; they were shadows of bamboo and cypress.",
+        "What night has no moon?",
+        "Where are there no bamboo or cypress trees?",
+        "The thin snow seemed suddenly shy, showing the faintest blush of pink.",
+        "Lamps glow along the old street; traditional crafts take root in everyday life.",
+        "Light rests at the edge of the table; the ordinary has its own quiet resonance."
+      ],
+      "sources": [
+        {
+          "label": "台词转录 / Transcript",
+          "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=about-time"
+        },
+        {
+          "label": "发行商片段 / Official clip",
+          "url": "https://www.youtube.com/watch?v=F24IoeMlM3Y"
+        },
+        {
+          "label": "剧本 / Screenplay",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/soul-2020.pdf?v=1729114993"
+        },
+        {
+          "label": "教育局全文 / Full poem",
+          "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/ks4_16a_text.pdf"
+        },
+        {
+          "label": "注释 / Commentary",
+          "url": "https://www.gushiwen.cn/mingju/juv.aspx?id=bd332a2be650"
+        },
+        {
+          "label": "全文 / Full text",
+          "url": "https://zh.wikisource.org/zh-hans/%E8%A8%98%E6%89%BF%E5%A4%A9%E5%AF%BA%E5%A4%9C%E9%81%8A"
+        },
+        {
+          "label": "版本与注释 / Text & notes",
+          "url": "https://www.gushiwen.cn/shiwenv.aspx?id=221828a8f12d"
+        },
+        {
+          "label": "全文与上下文 / Full essay",
+          "url": "https://www.guwendao.net/shiwenv_45364682d977.aspx"
+        },
+        {
+          "label": "教材核对 / Textbook source",
+          "url": "https://ise.hhu.edu.cn/_upload/article/files/d9/48/86d9a3fc4478b81dfdf877446b02/f6d1863e-2274-4ff7-b956-40db311b48a6.pdf"
+        },
+        {
+          "label": "10月14日活动安排 / Programme",
+          "url": "https://www.foshannews.net/h/7135/20261014/8851306.html"
+        },
+        {
+          "label": "10月24日开幕报道 / Opening report",
+          "url": "https://www.foshannews.net/h/191/20261024/8852966.html"
+        },
+        {
+          "label": "10月26日巡游报道 / Parade report",
+          "url": "https://www.foshannews.net/h/7131/20261026/8853108.html"
+        }
+      ],
+      "images": {
+        "hero": {
+          "src": "/assets/day-001/hero.webp",
+          "alt": "秋日公园里，金色晨光穿过树叶，落在空长椅和小路上。 / Morning light falls across an empty park bench and path.",
+          "kind": "AI-generated",
+          "srcSmall": "/assets/day-001/hero-small.webp",
+          "width": 1672,
+          "height": 941
+        },
+        "poem": {
+          "src": "/assets/day-001/poem.webp",
+          "alt": "山居秋暝意境图：月照松林，清泉过石，浣女归来，莲叶间有渔舟。 / Moonlit pines, a clear stream, returning washerwomen and a fishing boat.",
+          "kind": "AI-generated",
+          "srcSmall": "/assets/day-001/poem-small.webp",
+          "width": 1536,
+          "height": 1024
+        },
+        "prose": {
+          "src": "/assets/day-001/prose.webp",
+          "alt": "承天寺月夜意境图：竹柏影映在干燥庭院，两位文人缓步。 / Bamboo and cypress shadows cross a dry moonlit courtyard.",
+          "kind": "AI-generated",
+          "srcSmall": "/assets/day-001/prose-small.webp",
+          "width": 1536,
+          "height": 1024
+        },
+        "modern": {
+          "src": "/assets/day-001/modern.webp",
+          "alt": "济南的冬天意境图：低缓山丘上的薄雪被晚阳染成淡粉色。 / Thin snow on gentle hills takes on a pink blush in the evening light.",
+          "kind": "AI-generated",
+          "srcSmall": "/assets/day-001/modern-small.webp",
+          "width": 1536,
+          "height": 1024
+        },
+        "topic": {
+          "src": "/assets/day-001/topic.webp",
+          "alt": "岭南非遗主题插画：暖灯照着老街，工匠双手制作彩灯。 / Warm lamps, an old Lingnan street and hands making a lantern.",
+          "kind": "AI-generated",
+          "srcSmall": "/assets/day-001/topic-small.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      },
+      "count": 182,
+      "status": "completed",
+      "updatedAt": "2026-10-28T02:55:32.246Z"
+    }
+  ]
+}
