@@ -1,4 +1,5 @@
 import { body, dayStats, dayUrl } from '../scripts/content.mjs';
+import { prefixLocalUrls } from './urls.mjs';
 
 export const escape = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
 const bi = (zh, en, cls = '') => `<span class="${cls}">${escape(zh)}<span class="en" lang="en">${escape(en)}</span></span>`;
@@ -17,12 +18,13 @@ function shell(title, description, active, main, latest, extra = '', currentPath
   const pagePath = currentPath || (active === 'home' ? '/' : active === 'day' ? dayUrl(latest) : active === 'archive' ? '/archive/' : title === '关于与来源' ? '/about/' : null);
   const canonical = origin && pagePath ? origin + pagePath : '';
   const social = '<meta property="og:type" content="website"><meta property="og:title" content="' + escape(title + ' · 提笔--练字') + '"><meta property="og:description" content="' + escape(description) + '">' + (canonical ? '<link rel="canonical" href="' + escape(canonical) + '"><meta property="og:url" content="' + escape(canonical) + '"><meta property="og:image" content="' + escape(origin + latest.images.hero.src) + '">' : '');
-  return `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(title)} · 提笔</title><meta name="description" content="${escape(description)}">${social}<meta name="theme-color" content="#f5f2e9"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css"><script src="/app.js" type="module"></script></head><body ${extra}>
+  const html = `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(title)} · 提笔</title><meta name="description" content="${escape(description)}">${social}<meta name="theme-color" content="#f5f2e9"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css"><script src="/app.js" type="module"></script></head><body ${extra}>
   <a class="skip-link" href="#main">跳到正文 / Skip to content</a>
   <header class="site-header"><a class="brand" href="/" aria-label="提笔首页 / Between the Lines home"><span class="seal" aria-hidden="true">字</span><span class="brand-name">提笔<span lang="en">BETWEEN THE LINES</span></span></a>
   <nav aria-label="主导航 / Main navigation"><a ${active === 'home' ? 'aria-current="page"' : ''} href="/">首页 <span>Home</span></a><a ${active === 'day' ? 'aria-current="page"' : ''} href="${dayUrl(latest)}">今日练字 <span>Today</span></a><a ${active === 'archive' ? 'aria-current="page"' : ''} href="/archive/">往日篇章 <span>Archive</span></a></nav><a class="header-write" href="${dayUrl(latest)}#writing">提笔 <span lang="en">Write</span> ↗</a></header>
   <main id="main">${main}</main>
   <footer class="site-footer"><div><a class="footer-brand" href="/">提笔</a><p>一日一页，一笔一行。<span class="en" lang="en">A page a day. A line at a time.</span></p></div><div class="footer-links"><a href="/archive/">往日篇章 / Archive</a><a href="/about/">关于与来源 / About & credits</a><span>© ${latest.date.slice(0, 4)} 提笔 · 私人练字手记</span></div></footer><div class="toast" role="status" aria-live="polite" hidden></div></body></html>`;
+  return prefixLocalUrls(html, process.env.TIBI_BASE_PATH || '');
 }
 
 function hero(day, home = false) {

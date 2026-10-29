@@ -15,6 +15,24 @@ npm --prefix site start
 
 手记仅存储在访客当前设备、当前浏览器的 IndexedDB 中，不上传到网站服务器，不跨设备同步。清除网站数据、无痕模式、浏览器存储限制都可能影响恢复，请使用“导出文字”下载备份。网站按日期和周期隔离手记，并阻止旧标签页覆盖更新后的记录。
 
+## GitHub Pages
+
+成品地址：https://moneyystollings-prog.github.io/tibi--lianzi/ 。Pages 从 `gh-pages` 分支根目录发布构建成品，`main` 分支保留源代码。
+
+在 PowerShell 中构建项目子目录版本：
+
+```powershell
+$env:BASE_PATH = '/tibi--lianzi'
+$env:SITE_URL = 'https://moneyystollings-prog.github.io'
+npm --prefix site run build
+npm --prefix site test
+npm --prefix site run check
+```
+
+将检查通过的 `site/dist/` 全部内容（包括 `.nojekyll`）更新到 `gh-pages` 根目录后推送，GitHub 自动发布该分支。只推送 `main` 不会更新成品网站。`BASE_PATH` 统一处理页面导航、图片、响应式图片、脚本、阅读文本、分享信息和 sitemap；不设置时仍构建根路径版本，适用于本地预览与 EdgeOne。
+
+GitHub Pages 与 EdgeOne 是不同站点，浏览器手记按站点隔离，不自动迁移；切换前请导出备份。构建完成后如需本地根路径预览，先清除两个环境变量并重新构建。
+
 ## EdgeOne Pages / Makers
 
 导入本仓库，使用根目录的 `edgeone.json`：

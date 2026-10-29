@@ -1,6 +1,9 @@
 import { readFile, stat, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { root, readJson, readDays, validateDays, validateHistory, dayStats } from './content.mjs';
+import { normalizeBasePath } from '../src/urls.mjs';
+const config = await readJson(path.join(root, 'site.config.json'));
+const basePath = normalizeBasePath(process.env.BASE_PATH || config.basePath || '');
 const days = validateDays(await readDays());
 validateHistory(days, await readJson(path.join(root, 'data/cycle.json')));
 for (const day of days) {
@@ -29,8 +32,13 @@ async function walk(directory) {
 }
 for (const file of await walk(path.join(root, 'dist'))) {
   const html = await readFile(file, 'utf8');
-  for (const match of html.matchAll(/(?:href|src)="(\/[^"#]*)"/g)) {
-    const url = match[1].split('#')[0];
+  const links = [...html.matchAll(/(?:href|src)="(\/(?!\/)[^"]*)"/g)].map(match => match[1]);
+  for (const match of html.matchAll(/srcset="([^"]*)"/g)) {
+    links.push(...match[1].split(',').map(candidate => candidate.trim().split(/\s+/)[0]).filter(url => /^\/(?!\/)/.test(url)));
+  }
+  for (const link of links) {
+    if (basePath && !link.startsWith(basePath + '/')) throw Error(`Local link escapes BASE_PATH: ${link} in ${file}`);
+    const url = link.slice(basePath.length).split(/[?#]/)[0];
     const target = path.join(root, 'dist', url, url.endsWith('/') ? 'index.html' : '');
     if (!(await stat(target)).isFile()) throw Error(`Broken local link: ${url} in ${file}`);
   }
