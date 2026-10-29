@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://moneyystollings-prog.github.io/tibi--lianzi/sitemap.xml

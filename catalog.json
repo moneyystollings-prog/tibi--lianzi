@@ -1,0 +1,19 @@
+[
+  {
+    "id": "2026-10-27-001",
+    "cycle": "cycle-2026-10-27",
+    "day": 1,
+    "date": "2026-10-27",
+    "slug": "2026-10-27-light-in-the-ordinary",
+    "title": {
+      "zh": "在寻常处，看见光",
+      "en": "Light in the Ordinary",
+      "display": [
+        "在寻常处",
+        "看见光"
+      ]
+    },
+    "status": "completed",
+    "chineseCharacters": 182
+  }
+]
